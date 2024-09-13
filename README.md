@@ -4,7 +4,7 @@
 
 
 ## 1 bajar el código
-
+git clone https://github.com/marcosmdc/blackJackPython.git
 ## 2. Instalar Python
 
 Para comenzar, es necesario instalar Python en tu máquina:
