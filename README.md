@@ -2,7 +2,10 @@
 
 # Guía para instalar y configurar FastAPI en Python
 
-## 1. Instalar Python
+
+## 1 bajar el código
+
+## 2. Instalar Python
 
 Para comenzar, es necesario instalar Python en tu máquina:
 
@@ -10,7 +13,7 @@ Para comenzar, es necesario instalar Python en tu máquina:
 - Descarga la última versión compatible con tu sistema operativo.
 - Durante la instalación, **marca la opción "Add Python to PATH"** para asegurarte de que Python esté accesible desde la terminal.
 
-## 2. Crear y activar un entorno virtual
+## 3. Crear y activar un entorno virtual
 
 Es recomendable trabajar en un entorno virtual para aislar las dependencias del proyecto. Para crearlo y activarlo, sigue estos pasos:
 
@@ -20,11 +23,10 @@ En la terminal, dentro de la carpeta de tu proyecto, ejecuta:
 python -m venv venv
 source venv/Scripts/actívate
 
-## 3 instalar librerías:
+## 4 instalar librerías:
 pip install uvicorn
 pip install fastapi
 
-## 4 bajar el código
 
 ## 5 ejecutar app
 	uvicorn main:app

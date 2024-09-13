@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <img id="imagenUno" src="" alt="">
+   <label id="cartaUno"></label><br>
+   <label id="cartaDos"></label>
+   <button onclick="mostrarCarta()">Pedir cartas</button>
+</body>
+<script>
+var asCor = "data:image/jpeg;base64,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";
+var jCor = "https://media.istockphoto.com/id/166089342/es/foto/juego-de-tarjeta-de-conector-hembra-de-corazones.jpg?s=1024x1024&w=is&k=20&c=Bdu8sUZA3CCnCJQi9g5FieuVgd11N8f507jHJdwDP-g=";
+    function mostrarCarta(){
+        fetch('https://sddfclc7-8000.brs.devtunnels.ms/pedircartas', {
+        method: 'GET', 
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json(); 
+        })
+        .then(data => {
+            console.log(data); 
+            document.getElementById("cartaUno").innerHTML = data.cartas[0];
+            document.getElementById("cartaDos").innerHTML = data.cartas[1];
+            document.getElementById("imagenUno").src = "https://media.istockphoto.com/id/166089342/es/foto/juego-de-tarjeta-de-conector-hembra-de-corazones.jpg?s=1024x1024&w=is&k=20&c=Bdu8sUZA3CCnCJQi9g5FieuVgd11N8f507jHJdwDP-g=";
+            if(data.cartas[0].includes("Diez de Picas")){
+                document.getElementById("imagenUno").src = asCor;
+            }
+            
+            if(data.cartas[0].includes("Diez de Corazones")){
+                document.getElementById("imagenUno").src = jCor;
+            }
+            
+
+        })
+        .catch(error => {
+            console.error('There was a problem with the fetch operation:', error);
+        });
+        }
+  
+</script>
+</html>
