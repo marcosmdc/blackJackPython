@@ -25,7 +25,11 @@ source venv/Scripts/actívate
 
 ## 4 instalar librerías:
 pip install uvicorn
+o
+pip install --trusted-host pypi.python.org uvicorn
 pip install fastapi
+o
+pip install --trusted-host pypi.python.org fastapi
 
 
 ## 5 ejecutar app
